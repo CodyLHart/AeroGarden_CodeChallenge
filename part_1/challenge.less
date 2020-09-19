@@ -1,0 +1,15 @@
+.bradius-padding(@radius, @topbot, @rightleft) {
+    border-radius: @radius;
+    padding: @topbot @rightleft ;
+}
+
+.section > button {
+    .bradius-padding(50%, 0, 15px)
+}
+
+.section > button.primary {
+    .bradius-padding(0, 4px, 18px);
+    background-image: linear-gradient(135deg, #300030, #CCBBDD);
+}
+
+// I ALSO WENT AHEAD AND COMPILED IT DOWN TO A CSS FILE

@@ -1,0 +1,5 @@
+<page>
+    <body>
+        <move element="disclaimer" destination="body" before="content"/>
+    </body>
+</page>
